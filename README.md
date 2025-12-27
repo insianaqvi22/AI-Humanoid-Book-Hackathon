@@ -1,1 +1,1 @@
-# AI-Humanoid-Book-Hackathon
+# Humanoid-Ai-book
