@@ -1,0 +1,68 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OS generated files
+*~
+*.tmp
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Build outputs
+dist/
+build/
+*.out
+*.exe
+
+# Local configuration
+.local/
+.settings/
+
+# Specs directory (since we're tracking this in a different repo)
+specs/
+
+# Other personal files and directories
+.bun/
+.cache/
+.codeium/
+.cursor/
+.ssh/
+.bash_history
+.zshrc
+.node_repl_history
+
+# Project specific temporary files
+*.tmp
+*.temp
+
+# Other common temp files
+*.lock
+*.lockb
+package-lock.json
+bun.lockb
+
+# Windows specific files that might be picked up
+NTUSER.DAT*
+ntuser.dat*
