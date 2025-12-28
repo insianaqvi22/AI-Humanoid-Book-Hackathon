@@ -36,16 +36,18 @@ build/
 *.out
 *.exe
 
+# Docusaurus
+.docusaurus/
+.cache
+.temp
+output/
+
 # Local configuration
 .local/
 .settings/
 
-# Specs directory (since we're tracking this in a different repo)
-specs/
-
 # Other personal files and directories
 .bun/
-.cache/
 .codeium/
 .cursor/
 .ssh/

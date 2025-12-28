@@ -3,7 +3,18 @@
     "allow": [
       "Bash(gh auth status)",
       "Bash(git remote set-url origin https://github.com/insianaqvi22/AI-Humanoid-Book-Hackathon.git)",
-      "Bash(git push -u origin main)"
+      "Bash(git push -u origin main)",
+      "Bash(bash -c '.specify/scripts/bash/check-prerequisites.sh --json --require-tasks --include-tasks')",
+      "Skill(sp.specify)",
+      "Bash(git fetch --all --prune)",
+      "Bash(mkdir -p specs)",
+      "Bash(bash -c '.specify/scripts/bash/create-new-feature.sh --json \"\"AI Humanoid Book Implementation\"\" --number 1 --short-name \"\"ai-humanoid-book\"\"')",
+      "Bash(mkdir -p specs/001-ai-humanoid-book)",
+      "Skill(sp.plan)",
+      "Bash(bash -c '.specify/scripts/bash/setup-plan.sh --json')",
+      "Bash(bash -c '.specify/scripts/bash/update-agent-context.sh claude')",
+      "Skill(sp.tasks)",
+      "Bash(bash -c '.specify/scripts/bash/check-prerequisites.sh --json')"
     ]
   }
 }
