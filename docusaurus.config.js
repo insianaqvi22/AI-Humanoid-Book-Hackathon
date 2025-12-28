@@ -73,6 +73,11 @@ const config = {
             label: 'Book',
           },
           {
+            to: '/',
+            label: 'Home',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/insianaqvi22/AI-Humanoid-Book-Hackathon',
             label: 'GitHub',
             position: 'right',
@@ -87,6 +92,10 @@ const config = {
             items: [
               {
                 label: 'Introduction',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Browse Book',
                 to: '/docs/intro',
               },
             ],
