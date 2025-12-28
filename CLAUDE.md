@@ -208,3 +208,10 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- Markdown for content, JavaScript/Node.js for Docusaurus framework + Docusaurus, React, Node.js, Git (001-ai-humanoid-book)
+- File-based (Markdown files in repository) (001-ai-humanoid-book)
+
+## Recent Changes
+- 001-ai-humanoid-book: Added Markdown for content, JavaScript/Node.js for Docusaurus framework + Docusaurus, React, Node.js, Git

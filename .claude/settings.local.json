@@ -3,8 +3,7 @@
     "allow": [
       "Bash(gh auth status)",
       "Bash(git remote set-url origin https://github.com/insianaqvi22/AI-Humanoid-Book-Hackathon.git)",
-      "Bash(git push -u origin main)",
-      "Bash(git merge 001-ai-humanoid-book)"
+      "Bash(git push -u origin main)"
     ]
   }
 }
