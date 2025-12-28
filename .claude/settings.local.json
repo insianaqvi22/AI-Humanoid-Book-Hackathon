@@ -15,7 +15,17 @@
       "Bash(bash -c '.specify/scripts/bash/update-agent-context.sh claude')",
       "Skill(sp.tasks)",
       "Bash(bash -c '.specify/scripts/bash/check-prerequisites.sh --json')",
-      "Bash(git push origin main)"
+      "Bash(git push origin main)",
+      "Bash(dir docscode-examples /s)",
+      "Bash(dir docscode-examples* /s)",
+      "Bash(dir docs /s)",
+      "Bash(dir \"docs\\\\code-examples\" /s)",
+      "Bash(dir \"docs\\\\code-examples\\\\python\")",
+      "Bash(dir \"docs\\\\code-examples\\\\cpp\")",
+      "Bash(dir \"docs\\\\code-examples\\\\simulation\")",
+      "Bash(git checkout main)",
+      "Bash(git add .)",
+      "Bash(git commit -m \"Complete AI humanoid robotics book code examples\n\n- Added comprehensive Python examples for humanoid control\n- Added C++ examples for performance-critical applications\n- Added simulation examples with physics optimization\n- Added advanced simulation techniques and best practices\n- Added integration examples for real-to-sim transfer\n- Added performance optimization and safety examples\n- Added complete implementation guides and tutorials\")"
     ]
   }
 }
