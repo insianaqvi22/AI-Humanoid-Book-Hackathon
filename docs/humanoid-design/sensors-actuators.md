@@ -592,9 +592,9 @@ class SensorFusion:
 
 **Timing Constraints:**
 - Control loops: 1-10ms for position control
-- Balance control: <5ms for stability
-- Vision processing: <33ms for real-time
-- Communication: <1ms for critical data
+- Balance control: &lt;5ms for stability
+- Vision processing: &lt;33ms for real-time
+- Communication: &lt;1ms for critical data
 
 ### Power Management
 

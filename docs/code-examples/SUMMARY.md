@@ -20,5 +20,3 @@
 
 ## Additional Resources
 - [AI Training Integration](./simulation/ai-training.md)
-- [Performance Optimization](./simulation/performance-optimization.md)
-- [Safety and Error Handling](./simulation/safety-error-handling.md)

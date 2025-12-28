@@ -1,0 +1,100 @@
+/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/* You can override the default Docusaurus variables here */
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+  --ifm-code-font-size: 95%;
+}
+
+/* Custom styles for interactive elements */
+.interactive-element {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  background-color: var(--ifm-color-emphasis-100);
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+.interactive-card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  transition: box-shadow 0.3s ease;
+}
+
+.interactive-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.robot-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.code-block-executable {
+  position: relative;
+}
+
+.code-block-executable .copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.code-block-executable:hover .copy-button {
+  opacity: 1;
+}
+
+/* Custom button styles */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+/* Enhanced sidebar */
+.menu__list-item-collapsible--active {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+/* Custom header styles */
+.header-gradient {
+  background: linear-gradient(135deg, var(--ifm-color-primary), #667eea);
+  color: white;
+  padding: 2rem 0;
+}
+
+/* Footer enhancements */
+.footer--dark {
+  background-color: #1a1a1a;
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+}

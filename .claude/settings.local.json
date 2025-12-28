@@ -3,7 +3,17 @@
     "allow": [
       "Bash(gh auth status)",
       "Bash(git remote set-url origin https://github.com/insianaqvi22/AI-Humanoid-Book-Hackathon.git)",
-      "Bash(git push -u origin main)"
+      "Bash(git push -u origin main)",
+      "Bash(dir \"docs\\\\code-examples\\\\python\")",
+      "Bash(dir \"docs\\\\code-examples\\\\cpp\")",
+      "Bash(dir \"docs\\\\code-examples\\\\simulation\")",
+      "Bash(dir \"docs\\\\code-examples\")",
+      "Bash(echo.)",
+      "Bash(mkdir src)",
+      "Bash(npm run build)",
+      "Bash(npm install)",
+      "Bash(npx docusaurus build)",
+      "Bash(mkdir -p static/img)"
     ]
   }
 }

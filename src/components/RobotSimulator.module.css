@@ -1,0 +1,90 @@
+.robotSimulator {
+  border: 2px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.simulationArea {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: linear-gradient(45deg, #f8fafc 25%, transparent 25%),
+              linear-gradient(-45deg, #f8fafc 25%, transparent 25%),
+              linear-gradient(45deg, transparent 75%, #f8fafc 75%),
+              linear-gradient(-45deg, transparent 75%, #f8fafc 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.robot {
+  position: absolute;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.directionControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.directionControls > div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.controlButton {
+  min-width: 80px;
+  margin: 0 !important;
+}
+
+.resetButton {
+  margin-top: 0.5rem !important;
+}
+
+.statusPanel {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--ifm-background-surface-color);
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .simulationArea {
+    height: 250px;
+  }
+
+  .statusPanel {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
