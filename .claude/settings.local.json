@@ -14,7 +14,8 @@
       "Bash(bash -c '.specify/scripts/bash/setup-plan.sh --json')",
       "Bash(bash -c '.specify/scripts/bash/update-agent-context.sh claude')",
       "Skill(sp.tasks)",
-      "Bash(bash -c '.specify/scripts/bash/check-prerequisites.sh --json')"
+      "Bash(bash -c '.specify/scripts/bash/check-prerequisites.sh --json')",
+      "Bash(git push origin main)"
     ]
   }
 }
